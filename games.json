@@ -1,0 +1,338 @@
+[
+    {
+        "id": 1,
+        "scores": {
+            "Simon": -16,
+            "Ella": -7,
+            "Dome": 0,
+            "Andre": -5,
+            "Mascha": 28
+        },
+        "rounds": 15,
+        "place": "Ella&Dome"
+    },
+    {
+        "id": 2,
+        "scores": {
+            "Simon": -1,
+            "Ella": -16,
+            "Dome": 21,
+            "Mascha": -16,
+            "Andre": 12
+        },
+        "rounds": 15,
+        "place": "Ella&Dome"
+    },
+    {
+        "id": 3,
+        "scores": {
+            "Andre": -30,
+            "Leo": 12,
+            "Ella": -6,
+            "Dome": 24
+        },
+        "rounds": 25,
+        "place": "Ella&Dome"
+    },
+    {
+        "id": 4,
+        "scores": {
+            "Dave": 3,
+            "Ella": 19,
+            "Dome": -11,
+            "Andre": -11
+        },
+        "rounds": 34,
+        "place": "Ella&Dome"
+    },
+    {
+        "id": 5,
+        "scores": {
+            "Simon": -3,
+            "Ella": -3,
+            "Dome": 11,
+            "Andre": -5
+        },
+        "rounds": 9,
+        "place": "Ella&Dome"
+    },
+    {
+        "id": 6,
+        "scores": {
+            "Simon": -14,
+            "Ella": 21,
+            "Dome": 4,
+            "Andre": -12,
+            "Mascha": 1
+        },
+        "rounds": 20,
+        "place": "Ella&Dome"
+    },
+    {
+        "id": 7,
+        "scores": {
+            "Mascha": 0,
+            "Simon": -6,
+            "Ella": 15,
+            "Dome": -5,
+            "Andre": -4
+        },
+        "rounds": 10,
+        "place": "Ella&Dome"
+    },
+    {
+        "id": 8,
+        "scores": {
+            "Simon": 4,
+            "Andre": -4,
+            "Dome": 8,
+            "Mascha": -8
+        },
+        "rounds": 6,
+        "place": "Ella&Dome"
+    },
+    {
+        "id": 9,
+        "scores": {
+            "Simon": -14,
+            "Ella": 28,
+            "Dome": -4,
+            "Andre": -10
+        },
+        "rounds": 8,
+        "place": "Ella&Dome"
+    },
+    {
+        "id": 10,
+        "scores": {
+            "Simon": -5,
+            "Mascha": 3,
+            "Dome": -19,
+            "Andre": 21
+        },
+        "rounds": 12,
+        "place": "Ella&Dome"
+    },
+    {
+        "id": 11,
+        "scores": {
+            "Andre": 8,
+            "Simon": -1,
+            "Mascha": 2,
+            "Dome": -4,
+            "Ella": -5
+        },
+        "rounds": 10,
+        "place": "Ella&Dome"
+    },
+    {
+        "id": 12,
+        "scores": {
+            "Leo": -6,
+            "Dome": -27,
+            "Andre": 21,
+            "Mascha": 4,
+            "Ella": 8
+        },
+        "rounds": 20,
+        "place": "Ella&Dome"
+    },
+    {
+        "id": 13,
+        "scores": {
+            "Michel": -21,
+            "Andre": 18,
+            "Dome": -15,
+            "Ella": -3,
+            "Mascha": 21
+        },
+        "rounds": 20,
+        "place": "Ella&Dome"
+    },
+    {
+        "id": 14,
+        "scores": {
+            "Leo": -20,
+            "Mascha": 2,
+            "Dome": 16,
+            "Simon": 2
+        },
+        "rounds": 8,
+        "place": "Spanien"
+    },
+    {
+        "id": 15,
+        "scores": {
+            "Simon": -1,
+            "Dome": 9,
+            "Mascha": 9,
+            "Dave": -17
+        },
+        "rounds": 16,
+        "place": "Zug"
+    },
+    {
+        "id": 16,
+        "scores": {
+            "Dome": -2,
+            "Andre": 6,
+            "Mascha": 11,
+            "Ella": -6,
+            "Dave": -9
+        },
+        "rounds": 25,
+        "place": "Ella&Dome"
+    },
+    {
+        "id": 17,
+        "scores": {
+            "Jonas": 17,
+            "Max": -18,
+            "Ella": -4,
+            "Felix": 13,
+            "Andre": -8
+        },
+        "rounds": 15,
+        "place": "Andre"
+    },
+    {
+        "id": 18,
+        "scores": {
+            "Felix": 5,
+            "Tom": -23,
+            "Dome": 11,
+            "Andre": 7
+        },
+        "rounds": 12,
+        "place": "Andre"
+    },
+    {
+        "id": 19,
+        "scores": {
+            "Andre": -35,
+            "Dome": -4,
+            "Jan": 11,
+            "Mascha": 14,
+            "Ella": 14
+        },
+        "rounds": 25,
+        "place": "Andre"
+    },
+    {
+        "id": 20,
+        "scores": {
+            "Pascal": -9,
+            "Andre": 15,
+            "Ella": -1,
+            "Mascha": -6
+        },
+        "rounds": 16,
+        "place": "Andre"
+    },
+    {
+        "id": 21,
+        "scores": {
+            "Andre": 11,
+            "Simon": -30,
+            "Dome": -19,
+            "Leo": 21,
+            "Mascha": 17
+        },
+        "rounds": 15,
+        "place": "Andre"
+    },
+    {
+        "id": 22,
+        "scores": {
+            "Jonas": 16,
+            "Max": -13,
+            "Ella": -22,
+            "Felix": 25,
+            "Andre": -6
+        },
+        "rounds": 10,
+        "place": "Andre"
+    },
+    {
+        "id": 23,
+        "scores": {
+            "Ella": -1,
+            "Mascha": -5,
+            "Dome": 27,
+            "Andre": -21
+        },
+        "rounds": 12,
+        "place": "Andre"
+    },
+    {
+        "id": 24,
+        "scores": {
+            "Ella": 6,
+            "Andre": 0,
+            "Dave": -8,
+            "Mascha": 2
+        },
+        "rounds": 12,
+        "place": "Andre"
+    },
+    {
+        "id": 25,
+        "scores": {
+            "Tom": 5,
+            "Dome": -4,
+            "Alex": 16,
+            "Andre": -16,
+            "Felix": -1
+        },
+        "rounds": 20,
+        "place": "Andre"
+    },
+    {
+        "id": 26,
+        "scores": {
+            "Dome": -5,
+            "Max": 18,
+            "Mascha": 3,
+            "Simon": -16,
+            "Andre": 0
+        },
+        "rounds": 10,
+        "place": "Andre"
+    },
+    {
+        "id": 27,
+        "scores": {
+            "Mascha": -13,
+            "Ella": -12,
+            "Andre": 22,
+            "Dome": 0,
+            "Max": 3
+        },
+        "rounds": 15,
+        "place": "Andre"
+    },
+    {
+        "id": 28,
+        "scores": {
+            "Mascha": -7,
+            "Andre": -27,
+            "Dave": 32,
+            "Ella": 13,
+            "Dome": -11
+        },
+        "rounds": 25,
+        "place": "Ella&Dome"
+    },
+    {
+        "id": 29,
+        "scores": {
+            "Andre": 13,
+            "Jule": -3,
+            "Simon": -4,
+            "Ella": -33,
+            "Dome": 27
+        },
+        "rounds": 15,
+        "place": "Ella&Dome"
+    }
+]
