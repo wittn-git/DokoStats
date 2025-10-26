@@ -334,5 +334,39 @@
         },
         "rounds": 15,
         "place": "Ella&Dome"
+    },
+    {
+        "id": 30,
+        "scores": {
+            "Andre": 22,
+            "Ella": -6,
+            "Dome": -6,
+            "Dave": -10
+        },
+        "rounds": 20,
+        "place": "Ella&Dome"
+    },
+    {
+        "id": 31,
+        "scores": {
+            "Dave": -58,
+            "Andre": 21,
+            "Simon": 1,
+            "Ella": 4,
+            "Dome": 32
+        },
+        "rounds": 25,
+        "place": "Ella&Dome"
+    },
+    {
+        "id": 32,
+        "scores": {
+            "Sara": 2,
+            "Ella": 22,
+            "Stefi": -18,
+            "Dome": -6
+        },
+        "rounds": 8,
+        "place": "Ella&Dome"
     }
 ]
