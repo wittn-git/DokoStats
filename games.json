@@ -368,5 +368,40 @@
         },
         "rounds": 8,
         "place": "Ella&Dome"
+    },
+    {
+        "id": 33,
+        "scores": {
+            "Andre": -4,
+            "Ella": 14,
+            "Charlotte": -3,
+            "Dave": -11,
+            "Dome": 4
+        },
+        "rounds": 15,
+        "place": "Ella&Dome"
+    },
+    {
+        "id": 34,
+        "scores": {
+            "Andre": 10,
+            "Ella": -1,
+            "Charlotte": 16,
+            "Dome": 5,
+            "Jan": -30
+        },
+        "rounds": 10,
+        "place": "Ella&Dome"
+    },
+    {
+        "id": 35,
+        "scores": {
+            "Ella": -6,
+            "Jan": -16,
+            "Dome": 18,
+            "Stefi": 4
+        },
+        "rounds": 8,
+        "place": "Ella&Dome"
     }
 ]
