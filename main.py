@@ -91,12 +91,16 @@ def clean_stats(stats):
 
 def evaluate_stats():
     print("Evaluating stats...")
+
     player_data, game_data = transform_json_to_dfs()
     players = player_data["player"].unique().tolist()
 
+    place_counts = game_data["place"].value_counts().reset_index()
+    place_counts.columns = ['place', 'count']
+
     stats = {
         "Included players": players,
-        "Included places": game_data["place"].unique().tolist(),
+        "Included places": list(place_counts.itertuples(index=False, name=None)),
         "Total games": len(game_data),
         "Total rounds": game_data["rounds"].sum(),
         "Highest total score": player_data.groupby("player")["score"].max().reset_index().sort_values(by="score", ascending=False),
@@ -105,6 +109,7 @@ def evaluate_stats():
         "Games won": player_data.loc[player_data.groupby('id')['score'].idxmax()]['player'].value_counts().reset_index(name='games_won').rename(columns={'index': 'player'}),
         "Games played": player_data.groupby('player')['id'].count().reset_index(name='games_played').sort_values(by='games_played', ascending=False),
         "Rounds played": player_data.groupby('player')['rounds'].sum().reset_index(name='total_rounds').sort_values(by='total_rounds', ascending=False),
+        "Average placement (4P normalized)": player_data.assign(raw_placement=lambda df: df.groupby('id')['score'].rank(ascending=False, method='min')).merge(player_data.groupby('id').size().reset_index(name='total_players_in_round'), on='id').assign(normalized_placement=lambda df: 1 + (df['raw_placement'] - 1) * (4 - 1) / (df['total_players_in_round'] - 1).replace(0, 1)).groupby('player')['normalized_placement'].mean().reset_index(name='avg_normalized_placement').sort_values(by='avg_normalized_placement', ascending=True)
     }
     stats["Games won"] = stats["Games won"].merge(stats["Games played"], on='player', how='outer').fillna(0).drop(columns=['games_played']).astype({'games_won': int}).sort_values(by='games_won', ascending=False)
     stats["Games won per game"] = stats["Games won"].merge(stats["Games played"], on='player').assign(games_won_per_game=lambda df: round(df['games_won'] / df['games_played'], 3)).drop(columns=['games_won', 'games_played']).sort_values(by='games_won_per_game', ascending=False)

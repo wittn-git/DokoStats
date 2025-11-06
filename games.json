@@ -403,5 +403,17 @@
         },
         "rounds": 8,
         "place": "Ella&Dome"
+    },
+    {
+        "id": 36,
+        "scores": {
+            "Andre": 18,
+            "Dome": 13,
+            "Jan": -8,
+            "Dave": -17,
+            "Amandus": -6
+        },
+        "rounds": 10,
+        "place": "ELla&Dome"
     }
 ]
