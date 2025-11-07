@@ -414,6 +414,18 @@
             "Amandus": -6
         },
         "rounds": 10,
-        "place": "ELla&Dome"
+        "place": "Ella&Dome"
+    },
+    {
+        "id": 37,
+        "scores": {
+            "Andre": 36,
+            "Dome": -21,
+            "Jule": -26,
+            "Ella": 40,
+            "Jonas": -29
+        },
+        "rounds": 25,
+        "place": "Andre"
     }
 ]
