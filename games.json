@@ -521,5 +521,86 @@
         },
         "rounds": 15,
         "place": "Andre"
+    },
+    {
+        "id": 46,
+        "scores": {
+            "Dome": -45,
+            "Ella": 15,
+            "Dave": -3,
+            "Mascha": 45,
+            "Andre": -12
+        },
+        "rounds": 30,
+        "place": "Ella&Dome"
+    },
+    {
+        "id": 47,
+        "scores": {
+            "Amandus": -32,
+            "Andre": 17,
+            "Ella": -9,
+            "Mascha": 27,
+            "Dave": -3
+        },
+        "rounds": 15,
+        "place": "Andre"
+    },
+    {
+        "id": 48,
+        "scores": {
+            "Dave": -22,
+            "Dome": 12,
+            "Felix": -6,
+            "Andre": 16
+        },
+        "rounds": 12,
+        "place": "Andre"
+    },
+    {
+        "id": 49,
+        "scores": {
+            "Andre": -20,
+            "Dome": 40,
+            "Dave": -32,
+            "Mascha": 12
+        },
+        "rounds": 16,
+        "place": "Ella&Dome"
+    },
+    {
+        "id": 50,
+        "scores": {
+            "Andre": 1,
+            "Dome": -13,
+            "Dave": 5,
+            "Mascha": 3,
+            "Ella": 4
+        },
+        "rounds": 5,
+        "place": "Ella&Dome"
+    },
+    {
+        "id": 51,
+        "scores": {
+            "Ella": -30,
+            "Dome": 7,
+            "Jan": -27,
+            "Carlo": 22,
+            "Andre": 28
+        },
+        "rounds": 15,
+        "place": "Andre"
+    },
+    {
+        "id": 52,
+        "scores": {
+            "Andre": 36,
+            "Jonas": -24,
+            "Max": -4,
+            "Janis": -8
+        },
+        "rounds": 12,
+        "place": "Andre"
     }
 ]
