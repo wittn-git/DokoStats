@@ -502,7 +502,7 @@
     {
         "id": 44,
         "scores": {
-            "Felix": -37,
+            "Felix D.": -37,
             "Andre": 45,
             "Dome": -9,
             "Dave": 1
@@ -551,7 +551,7 @@
         "scores": {
             "Dave": -22,
             "Dome": 12,
-            "Felix": -6,
+            "Felix D.": -6,
             "Andre": 16
         },
         "rounds": 12,
@@ -601,6 +601,41 @@
             "Janis": -8
         },
         "rounds": 12,
+        "place": "Andre"
+    },
+    {
+        "id": 53,
+        "scores": {
+            "Stefi": -18,
+            "Dome": 4,
+            "Mascha": -6,
+            "Andre": 20
+        },
+        "rounds": 16,
+        "place": "Andre"
+    },
+    {
+        "id": 54,
+        "scores": {
+            "Stefi": -11,
+            "Dome": 16,
+            "Amandus": 9,
+            "Andre": 1,
+            "Mascha": -15
+        },
+        "rounds": 15,
+        "place": "Mascha"
+    },
+    {
+        "id": 55,
+        "scores": {
+            "Simon": -20,
+            "Dome": 10,
+            "Mascha": 0,
+            "Andre": -18,
+            "Ella": 28
+        },
+        "rounds": 30,
         "place": "Andre"
     }
 ]
