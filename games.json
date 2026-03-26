@@ -637,5 +637,16 @@
         },
         "rounds": 30,
         "place": "Andre"
+    },
+    {
+        "id": 56,
+        "scores": {
+            "Finn": -17,
+            "Stefi": -3,
+            "Simon": 17,
+            "Dome": 3
+        },
+        "rounds": 20,
+        "place": "Ella&Dome"
     }
 ]
